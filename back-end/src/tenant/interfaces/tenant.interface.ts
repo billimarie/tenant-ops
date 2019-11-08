@@ -9,5 +9,5 @@ export interface Tenant extends Document {
     readonly building: string;
     readonly unit: number;
     readonly description: string;
-    readonly created_at: date;
+    readonly created_at: Date;
 }

@@ -7,5 +7,5 @@ export class CreateTenantDTO {
   readonly building: string;
   readonly unit: number;
   readonly description: string;
-  readonly created_at: date;
+  readonly created_at: Date;
 }
