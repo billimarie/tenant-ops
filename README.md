@@ -2,9 +2,9 @@
 > Nest.js, Vue.js, MongoDB
 
 ## Installation
-- Front-End: `npm run serve`
-- Back-End: `npm run start`
 - Database: `mongod`
+- Back-End: `npm run start`
+- Front-End: `npm run serve`
 
 ## Credits
 Tutorial created by Olususi Kayode Oluyemi ([@yemiwebby](https://www.twitter.com/yemiwebby)):
