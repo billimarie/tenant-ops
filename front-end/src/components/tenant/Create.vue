@@ -1,42 +1,42 @@
 <template>
-  <div>
-    <div class="col-md-12 form-wrapper">
+  <div class="w-full bg-gray-100">
+    <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-md mx-auto">
       <h2> Create Tenant </h2>
       <form id="create-post-form" @submit.prevent="createTenant">
-        <div class="form-group col-md-12">
-          <label for="title"> First Name </label>
-          <input type="text" id="first_name" v-model="first_name" name="title" class="form-control" placeholder="Enter First Name">
+        <div class="mb-4">
+          <label for="title" class="block text-gray-700 text-sm font-bold mb-2 text-left">First Name </label>
+          <input type="text" id="first_name" v-model="first_name" name="title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter First Name">
         </div>
-        <div class="form-group col-md-12">
-          <label for="title"> Last Name </label>
-          <input type="text" id="last_name" v-model="last_name" name="title" class="form-control" placeholder="Enter Last Name">
+        <div class="mb-4">
+          <label for="title" class="block text-gray-700 text-sm font-bold mb-2 text-left">Last Name </label>
+          <input type="text" id="last_name" v-model="last_name" name="title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Last Name">
         </div>
-        <div class="form-group col-md-12">
-          <label for="title"> Company </label>
-          <input type="text" id="company" v-model="company" name="title" class="form-control" placeholder="Enter Company Name">
+        <div class="mb-4">
+          <label for="title" class="block text-gray-700 text-sm font-bold mb-2 text-left">Company </label>
+          <input type="text" id="company" v-model="company" name="title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Company Name">
         </div>
-        <div class="form-group col-md-12">
-          <label for="title"> Email </label>
-          <input type="text" id="email" v-model="email" name="title" class="form-control" placeholder="Enter Email">
+        <div class="mb-4">
+          <label for="title" class="block text-gray-700 text-sm font-bold mb-2 text-left">Email </label>
+          <input type="text" id="email" v-model="email" name="title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Email">
         </div>
-        <div class="form-group col-md-12">
-          <label for="title"> Phone </label>
-          <input type="text" id="phone_number" v-model="phone" name="title" class="form-control" placeholder="Enter Phone number">
+        <div class="mb-4">
+          <label for="title" class="block text-gray-700 text-sm font-bold mb-2 text-left">Phone </label>
+          <input type="text" id="phone_number" v-model="phone" name="title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Phone number">
         </div>
-        <div class="form-group col-md-12">
-          <label for="title"> Building </label>
-          <input type="text" id="building" v-model="building" name="title" class="form-control" placeholder="Enter Building">
+        <div class="mb-4">
+          <label for="title" class="block text-gray-700 text-sm font-bold mb-2 text-left">Building </label>
+          <input type="text" id="building" v-model="building" name="title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Building">
         </div>
-        <div class="form-group col-md-12">
-          <label for="title"> Unit </label>
-          <input type="number" id="unit" v-model="unit" name="title" class="form-control" placeholder="Enter Unit Number">
+        <div class="mb-4">
+          <label for="title" class="block text-gray-700 text-sm font-bold mb-2 text-left">Unit </label>
+          <input type="number" id="unit" v-model="unit" name="title" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Unit Number">
         </div>
-        <div class="form-group col-md-12">
-          <label for="description"> Description </label>
-          <input type="text" id="description" v-model="description" name="description" class="form-control" placeholder="Enter Description">
+        <div class="mb-4">
+          <label for="description" class="block text-gray-700 text-sm font-bold mb-2 text-left">Description </label>
+          <input type="text" id="description" v-model="description" name="description" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Description">
         </div>
-        <div class="form-group col-md-4 pull-right">
-          <button class="btn btn-success" type="submit"> Create Tenant </button>
+        <div class="flex items-center justify-between">
+          <button class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit"> Create Tenant </button>
         </div>
       </form>
     </div>
